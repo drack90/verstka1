@@ -1,0 +1,53 @@
+.services{
+  width: 1400px;
+  margin-right: auto;
+  margin-left: auto;
+  .tittle-text{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+    .first-tittle-text{
+      text-align: center;
+      font-size: 40px;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+    .second-tittle-text{
+      margin-top: 20px;
+      color: #777777;
+      font-weight: 500;
+    }
+  }
+}
+.cards{
+  display: flex;
+  margin-left: 230px;
+  margin-right: 230px ;
+  margin-top: 80px;
+  .card{
+    height: 291px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+    img{
+      margin-right: auto;
+      margin-left: auto;
+      height: 75px;
+      width: 75px;
+    }
+    .card-tittle{
+      text-align: center;
+      font-size: 18px;
+      font-weight: 900;
+      margin-top: 25px;
+    }
+    .card-text{
+      text-align: center;
+      margin-top: 20px;
+      color: #777777;
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
+}

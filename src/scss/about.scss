@@ -1,0 +1,60 @@
+.wrapper{
+  width: 1400px;
+}
+.about-us {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  .about-tittle{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    .about-first-tittle{
+      text-transform: uppercase;
+      margin-top: 120px;
+      font-size: 40px;
+      font-weight: 600;
+    }
+    .about-second-tittle{
+      font-size: 16px;
+      color: #777777;
+      margin-top: 10px;
+    }
+  }
+  .about-cards{
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    .about-card{
+      margin-top: 80px;
+      display: grid;
+      grid-template-columns:  repeat(3, 1fr);
+      .about-img{
+        grid-column-start: 2;
+        grid-column-end: 2;
+        margin: auto;
+      }
+      .about-card-text{
+        .about-text{
+          color: #777777;
+          font-size: 14px;
+        }
+      }
+      .right{
+        text-align: left;
+        grid-column-start: 3;
+        grid-column-end: 3;
+      }
+      .left{
+        text-align: right;
+        grid-row-start: 1;
+        grid-column-start: 1;
+        grid-column-end: 1;
+      }
+      .about-date-text{
+        text-transform: uppercase;
+      }
+    }
+
+  }
+}
